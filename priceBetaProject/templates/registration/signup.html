@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PriceBeta | Signup</title>
+</head>
+
+{% block content %}
+<body>
+    <div class="container">
+        <div class="con">
+            <h3>Create a Secure PriceBeta Account</h3>
+            <p>Welcome to the Number 1 Price Comparison Website!</p>
+            <p>Enter your details to get started<p>
+        </div>
+        <div class="form">
+            <form action="{% url 'signup' %}" method="post">{% csrf_token %}
+                
+                {{ form.as_p }}
+                    <button type="submit">CREATE ACCOUNT</button>
+            </form>
+        </div>
+    </div>
+<footer>
+    <a href="{% url 'login' %}">Already have an account? Login </a>
+</footer>
+</body>
+{%endblock content%}
+</html>
