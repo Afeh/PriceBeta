@@ -4,3 +4,12 @@ from django.shortcuts import render, HttpResponse
 
 def Product(request):
     return HttpResponse("It is working")
+
+def Category(request):
+    return HttpResponse('Working')
+
+def Store(request):
+    return HttpResponse('Working')
+
+def Wishlist(request):
+    return HttpResponse('Working')
