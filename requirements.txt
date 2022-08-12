@@ -3,7 +3,6 @@ backports.zoneinfo==0.2.1
 beautifulsoup4==4.11.1
 boto==2.49.0
 bs4==0.0.1
-Cactus==3.3.3
 certifi==2022.5.18.1
 charset-normalizer==2.1.0
 colorama==0.4.5
